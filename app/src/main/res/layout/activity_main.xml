@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical"
+    >
+
+ <EditText
+     android:layout_width="fill_parent"
+     android:layout_height="50dp"
+     android:textColor="#145"
+     android:layout_marginTop="150dp"
+     android:gravity="center"
+    android:hint="Email ID"
+     android:textSize="20dp"
+     android:padding="10dp"
+     android:textColorHint="#000"
+     android:background="@drawable/back"
+     android:layout_marginLeft="35dp"
+     android:layout_marginRight="35dp"
+     />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/back"
+
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="35dp"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:background="@drawable/back"
+        />
+      <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout> 
